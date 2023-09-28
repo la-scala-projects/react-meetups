@@ -19,7 +19,7 @@ const NewMetup: FC = () => {
           return;
         }
 
-        navigate("/");
+        navigate("/", { replace: true });
       },
     );
   };
